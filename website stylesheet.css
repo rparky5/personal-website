@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(-45deg, #184a83, #141E30);
+  margin: 0;
+  padding: 40px 300px;
+  color: #ffffffd2;
+  font-family: 'georgia';
+}
+
+nav {
+  text-align: right;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF8825;
+}
+
+a:visited {
+  color: white;
+}
+
+span {
+  display: block;
+  text-align: right;
+  display: inline-block;
+  border-right: 2px solid white;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+}
+
+nav span:last-child {
+  border-right: none;
+}
+
+img {
+  background-position: center top;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+hr {
+  width: 50%;
+}
+
+.me {
+  text-align: center;
+}
+
+#name {
+  font-size: 35px;
+}
+
+#description {
+  font-size: 20px;
+}
+
+#about {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  line-height: 25px;
+}
